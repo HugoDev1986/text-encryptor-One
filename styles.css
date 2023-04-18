@@ -1,17 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=IBM+Plex+Mono:wght@400;600&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=IBM+Plex+Mono:wght@400;600&display=swap');
-
-body{
-  background-color: white;
+body {
+  background-color: #E5E5E5;
 }
 .titulo {
-    font-size: 30px;
-    font-weight: 700;
-    color:  #3498DB ;
-    text-align: center;
-    margin-top: 3%;
-    font-family: 'IBM Plex Mono', monospace;
-  }
+  font-size: 30px;
+  font-weight: 700;
+  color: #3498db;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "IBM Plex Mono", monospace;
+}
 .container {
   position: relative;
   width: 100vw;
@@ -30,8 +29,8 @@ body{
   font-weight: 400;
   font-size: 32px;
   line-height: 150%;
-  background-color:  white;
-font-family: 'IBM Plex Mono', monospace;
+  background-color: white;
+  font-family: "IBM Plex Mono", monospace;
   border-radius: 12px;
   resize: none;
   color: rgb(10, 10, 9);
@@ -39,8 +38,8 @@ font-family: 'IBM Plex Mono', monospace;
 }
 
 .texto::placeholder {
-  color:#3498DB;
-font-family: 'IBM Plex Mono', monospace;
+  color: #3498db;
+  font-family: "IBM Plex Mono", monospace;
 }
 
 .texto:focus,
@@ -60,7 +59,6 @@ font-family: 'IBM Plex Mono', monospace;
   left: 10%;
   top: 68%;
   font-family: "Anonymous Pro", monospace;
-  
 }
 
 .terminos p {
@@ -68,7 +66,7 @@ font-family: 'IBM Plex Mono', monospace;
   font-weight: 400;
   font-size: 15px;
   line-height: 150%;
-  color: #3498DB;
+  color: #3498db;
   opacity: 0.8;
   flex: none;
   order: 1;
@@ -93,7 +91,7 @@ font-family: 'IBM Plex Mono', monospace;
   padding: 2%;
   gap: 8px;
   width: 20%;
-  background-color:  #3498DB ;
+  background-color: #3498db;
   border-radius: 24px;
   font-family: "Inter";
   font-size: 22px;
@@ -114,14 +112,14 @@ font-family: 'IBM Plex Mono', monospace;
   gap: 8px;
   width: 20%;
   background: #d8dfe8;
-  border: 1px solid  #3498DB ;
+  border: 1px solid #3498db;
   border-radius: 24px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 22px;
   line-height: 19px;
   text-align: center;
-  color:  #3498DB ;
+  color: #3498db;
   font-family: "Anonymous Pro", monospace;
   margin-left: 5px;
 }
@@ -168,7 +166,7 @@ font-family: 'IBM Plex Mono', monospace;
   font-size: 24px;
   line-height: 120%;
   text-align: center;
-  color:  #3498DB ;
+  color: #3498db;
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -180,7 +178,6 @@ font-family: 'IBM Plex Mono', monospace;
   font-size: 16px;
   line-height: 150%;
   text-align: center;
-  color: ;
   font-family: "Anonymous Pro", monospace;
 }
 
@@ -193,26 +190,27 @@ font-family: 'IBM Plex Mono', monospace;
 
 /* Responsive design */
 @media (max-width: 400px) {
-    .titulo {
-        display: flex;
-        width: 30%;
-        left: 15px;
-        font-size: 25px;
-        text-align: center;
-        height: 10%;
-        padding-left: 10%;
-    }
-  
-    .container {
+  .titulo {
+    display: flex;
+    width: 30%;
+    left: 15px;
+    font-size: 25px;
+    text-align: center;
+    height: 10%;
+    padding-left: 10%;
+    margin: 0;
+  }
+
+  .container {
     display: flex;
     flex-direction: row;
   }
   .encriptar {
-    width: 50%;
+    width: 55%;
   }
   .texto {
-    width: 70%;
-    height: 20%;
+    width: 78%;
+    height: 30%;
     left: 10%;
     top: 28%;
     font-size: 120%;
@@ -220,7 +218,7 @@ font-family: 'IBM Plex Mono', monospace;
   .terminos {
     width: 80%;
     left: 10%;
-    top: 50%;
+    top: 58%;
   }
   .terminos p {
     font-size: 13px;
@@ -228,13 +226,14 @@ font-family: 'IBM Plex Mono', monospace;
   .botones {
     width: 80%;
     left: 10%;
-    top: 57%;
+    top: 64%;
     font-size: 70%;
   }
   .btn-encriptar,
   .btn-desencriptar {
     width: 55%;
     border-radius: 16px;
+    font-size: 16px;
   }
   .btn-encriptar:hover,
   .btn-desencriptar:hover {
@@ -243,20 +242,22 @@ font-family: 'IBM Plex Mono', monospace;
     padding: 2.8%;
   }
   .encriptado {
-    width: 70%;
+    width: 78%;
     height: 25%;
     left: 10%;
-    top: 70%;
+    top: 72%;
   }
   .mensaje-encriptado {
     width: 100%;
     top: 20%;
     height: 10%;
     font-size: 10%;
-    padding-top: 28%;
+    padding-top: 14%;
   }
-  .parrafo{
-    margin-top: 10%;
+  .parrafo {
+    top: 0;
+    display: none;
+    visibility: hidden;
   }
   .encriptado img {
     top: 0;
