@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=IBM+Plex+Mono:wght@400;600&display=swap");
 
 body {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
 }
 .titulo {
   font-size: 30px;
@@ -10,6 +10,15 @@ body {
   text-align: center;
   margin-top: 3%;
   font-family: "IBM Plex Mono", monospace;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+body.dark {
+  background: #222;
+  color: #fff;
 }
 .container {
   position: relative;
@@ -264,4 +273,8 @@ body {
     display: none;
     visibility: hidden;
   }
+
 }
+
+    
+
